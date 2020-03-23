@@ -1,3 +1,19 @@
 body{
     font-family: 'Open Sans', sans-serif !important;
+    background-color: #263238;
+    color: #eceff1;
+}
+.cursor-default{
+    cursor: default !important;
+}
+#box-bg{
+    background-color: #37474f;
+}
+.profile-img{
+    max-width: 180px;
+    max-height: 180px;
+}
+.terminal{
+    background-color: #455a64;
+    font-family: 'Source Code Pro', monospace !important;
 }
