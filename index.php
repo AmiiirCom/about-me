@@ -47,7 +47,7 @@
             <br>
             <div class="rounded py-2" id="box-bg">
                 <div class="w-100 text-center"><h6 class="cursor-default">skills</h6></div>
-                <div class="clearfix text-left terminal mt-2 px-2 py-1">
+                <div class="clearfix text-left skills mt-2 px-2 py-1">
                     <label for="skill-1">skill 1</label>
                     <div class="progress" id="#skill-1">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
