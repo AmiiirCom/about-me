@@ -1,0 +1,29 @@
+{
+  "page-title": null,
+  "name": null,
+  "job": null,
+  "profile-img": null,
+  "facebook": null,
+  "instagram": null,
+  "twitter": null,
+  "github": null,
+  "telegram": null,
+  "bio": null,
+  "back-btn-url": null,
+  "skill1": {
+    "name": null,
+    "value": null
+  },
+  "skill2": {
+    "name": null,
+    "value": null
+  },
+  "skill3": {
+    "name": null,
+    "value": null
+  },
+  "skill4": {
+    "name": null,
+    "value": null
+  }
+}

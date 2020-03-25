@@ -40,8 +40,9 @@
                 <div class="w-100 text-center"><h6 class="cursor-default">yourname@root</h6></div>
                 <div class="clearfix text-left terminal mt-2 px-2 py-1">
                     <p><small>Welcome to about me page, text</small></p>
-                    <p><span class="text-warning">—</span><small> for back to homepage click here.</small>
+                    <p><span class="text-success">—</span><small> for back to homepage click here.</small>
                         <a class="btn btn-sm btn-outline-light" href="#"><small>back</small></a></p>
+                    <p class="cursor-default text-warning"><small>➜ ~ </small></p>
                 </div>
             </div>
             <br>
@@ -52,17 +53,14 @@
                     <div class="progress" id="#skill-1">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <br>
                     <label for="skill-2">skill 2</label>
                     <div class="progress" id="#skill-2">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <br>
                     <label for="skill-3">skill 3</label>
                     <div class="progress" id="#skill-3">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <br>
                     <label for="skill-4">skill 4</label>
                     <div class="progress" id="#skill-4">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
