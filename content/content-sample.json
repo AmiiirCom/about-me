@@ -1,15 +1,16 @@
 {
-  "page-title": null,
+  "page_title": null,
+  "favicon": null,
   "name": null,
   "job": null,
-  "profile-img": null,
+  "profile_img": null,
   "facebook": null,
   "instagram": null,
   "twitter": null,
   "github": null,
   "telegram": null,
   "bio": null,
-  "back-btn-url": null,
+  "back_btn_url": null,
   "skill1": {
     "name": null,
     "value": null
