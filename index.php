@@ -87,7 +87,7 @@ require_once "functions.php";
     </div>
     <div class="col-12 text-center cursor-default text-light my-4" id="footer">
         <p>made with <span class="text-danger">❤</span> by <a target="_blank" class="text-decoration-none text-light"
-                                                              href="https://iamiresmaeili7.ir/">Amir Esmaeili</a>
+                                                              href="https://github.com/AmiiirCom/about-me">AmiiirCom</a>, v1.1
             - <?php print date("Y"); ?></p>
     </div>
 </div>
