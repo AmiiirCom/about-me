@@ -18,3 +18,5 @@
 12. enter URL `back_btn_url` by type string 
 13. enter `skill(1,2,3,4)>name` by string
 14. enter `skill(1,2,3,4)>value` by int
+## config.json item
+1. enter HEX color code `theme_color` by type string
