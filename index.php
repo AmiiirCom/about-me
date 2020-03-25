@@ -13,6 +13,7 @@ require_once "functions.php";
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="theme-color" content="<?php theme_color(); ?>">
     <link rel="shortcut icon" href="<?php favicon(); ?>" type="image/x-icon">
     <link rel="icon" href="<?php favicon(); ?>"
     " type="image/x-icon">
@@ -87,7 +88,7 @@ require_once "functions.php";
     </div>
     <div class="col-12 text-center cursor-default text-light my-4" id="footer">
         <p>made with <span class="text-danger">❤</span> by <a target="_blank" class="text-decoration-none text-light"
-                                                              href="https://github.com/AmiiirCom/about-me">AmiiirCom</a>, v1.1
+                                                              href="https://github.com/AmiiirCom/about-me">AmiiirCom</a>, v2.1
             - <?php print date("Y"); ?></p>
     </div>
 </div>
