@@ -209,10 +209,10 @@ function theme_color()
     $content = file_get_contents("content/config/config.json");
     $data = json_decode($content);
     $theme_color = $data->theme_color;
-    if ($theme_color == null){
+    if ($theme_color == null) {
         $theme_color = "#37474f";
         print $theme_color;
-    } else{
+    } else {
         print $theme_color;
     }
 }
