@@ -142,7 +142,7 @@ require_once "functions.php";
             <!--- portfolio --->
         </div>
         <div class="col-12 text-center cursor-default text-light my-4" id="footer">
-            <p>made with <span class="text-danger">❤</span> v3.3
+            <p>made with <span class="text-danger">❤</span> v3.5
                 - <?php print date("Y"); ?></p>
         </div>
     </div>

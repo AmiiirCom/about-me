@@ -8,7 +8,7 @@
 2. enter URL `favicon` by type string
 3. enter `name` by string
 4. enter `job` by string
-5. enter URL `profile_img` by type string
+5. enter URL `profile_img` by type string (Try to insert your image to 400*400 px)
 6. enter URL `facebook` by type string
 7. enter URL `instagram` by type string
 8. enter URL `twitter` by type string
