@@ -202,7 +202,34 @@ function skill4($object)
     }
 }
 
+// portfolio
+
+function portfolio_display()
+{
+    $content = file_get_contents("content/content.json");
+    $data = json_decode($content);
+    $display = $data->portfolio->display;
+    if ($display == true) {
+        return true;
+    } elseif ($display == false) {
+        return false;
+    } else {
+        die("prtfolio > display not valid!");
+    }
+}
+
+function portfolio_items_exist()
+{
+    $content = file_get_contents("content/content.json");
+    $data = json_decode($content);
+    $items = $data->portfolio->items;
+    if (count($items) !== 0 and $items !== null) {
+        return true;
+    }
+}
+
 // config
+
 
 function theme_color()
 {

@@ -26,5 +26,20 @@
   "skill4": {
     "name": null,
     "value": null
+  },
+  "portfolio": {
+    "display": true,
+    "items": [
+      {
+        "name": null,
+        "img": null,
+        "link": null
+      },
+      {
+        "name": null,
+        "img": null,
+        "link": null
+      }
+    ]
   }
 }

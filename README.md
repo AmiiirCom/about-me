@@ -19,5 +19,10 @@
 #### skills box
 1. enter `skill(1,2,3,4)>name` by string
 2. enter `skill(1,2,3,4)>value` by int
+#### portfolio box
+1. enter `portfolio>display` by bool
+2. enter `items>name` by string
+3. enter URL `items>img` by string
+4. enter URL `items>link` by string
 ## config.json item
 1. enter HEX color code `theme_color` by type string
