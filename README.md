@@ -22,7 +22,7 @@
 #### portfolio box
 1. enter `portfolio>display` by bool
 2. enter `items>name` by string
-3. enter URL `items>img` by string
+3. enter URL `items>img` by string (Try to insert your image to 600*600 px)
 4. enter URL `items>link` by string
 ## config.json item
 1. enter HEX color code `theme_color` by type string
