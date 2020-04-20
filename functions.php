@@ -126,79 +126,29 @@ function back_btn_url()
     print $back_btn_url;
 }
 
-function skill1($object)
+// skills
+
+function skills_display()
 {
     $content = file_get_contents("content/content.json");
     $data = json_decode($content);
-    $name = $data->skill1->name;
-    $value = $data->skill1->value;
-    if ($object == "name") {
-        print $name;
-    } elseif ($object == "value") {
-        print $value;
-    } elseif ($name == null) {
-        print "";
-    } elseif ($value == null) {
-        print 0;
+    $display = $data->skills->display;
+    if ($display == true) {
+        return true;
+    } elseif ($display == false) {
+        return false;
     } else {
-        print "object not valid";
+        die("prtfolio > display not valid!");
     }
 }
 
-function skill2($object)
+function skills_items_exist()
 {
     $content = file_get_contents("content/content.json");
     $data = json_decode($content);
-    $name = $data->skill2->name;
-    $value = $data->skill2->value;
-    if ($object == "name") {
-        print $name;
-    } elseif ($object == "value") {
-        print $value;
-    } elseif ($name == null) {
-        print "";
-    } elseif ($value == null) {
-        print 0;
-    } else {
-        print "object not valid";
-    }
-}
-
-function skill3($object)
-{
-    $content = file_get_contents("content/content.json");
-    $data = json_decode($content);
-    $name = $data->skill3->name;
-    $value = $data->skill3->value;
-    if ($object == "name") {
-        print $name;
-    } elseif ($object == "value") {
-        print $value;
-    } elseif ($name == null) {
-        print "";
-    } elseif ($value == null) {
-        print 0;
-    } else {
-        print "object not valid";
-    }
-}
-
-function skill4($object)
-{
-    $content = file_get_contents("content/content.json");
-    $data = json_decode($content);
-    $name = $data->skill4->name;
-    $value = $data->skill4->value;
-    if ($object == "name") {
-        print $name;
-    } elseif ($object == "value") {
-        print $value;
-    } elseif ($name == null) {
-        print "";
-    } elseif ($value == null) {
-        print 0;
-    } else {
-        print "object not valid";
+    $items = $data->skills->items;
+    if (count($items) !== 0 and $items !== null) {
+        return true;
     }
 }
 
@@ -229,7 +179,6 @@ function portfolio_items_exist()
 }
 
 // config
-
 
 function theme_color()
 {

@@ -11,21 +11,14 @@
   "telegram": null,
   "bio": null,
   "back_btn_url": null,
-  "skill1": {
-    "name": null,
-    "value": null
-  },
-  "skill2": {
-    "name": null,
-    "value": null
-  },
-  "skill3": {
-    "name": null,
-    "value": null
-  },
-  "skill4": {
-    "name": null,
-    "value": null
+  "skills": {
+    "display": true,
+    "items": [
+      {
+        "name": null,
+        "value": null
+      }
+    ]
   },
   "portfolio": {
     "display": true,

@@ -38,6 +38,9 @@ require_once "functions.php";
                             <?php twitter(); ?>
                             <?php github(); ?>
                             <?php telegram(); ?>
+                            <!--- Manual Btn --->
+                            <a href="https://iamiresmaeili7.ir/contact-me/" target="_blank" class="btn btn-warning">Contact
+                                Form</a>
                         </div>
                     </div>
                 </div>
@@ -55,35 +58,55 @@ require_once "functions.php";
                 </div>
             </div>
             <br>
+            <!--- skills --->
+            <?php
+            if (skills_display() == true) {
+            ?>
             <div class="rounded py-2" id="box-bg">
                 <div class="w-100 text-center"><h6 class="cursor-default">skills</h6></div>
                 <div class="clearfix text-left skills mt-2 px-2 py-1">
-                    <label for="skill-1"><?php skill1("name"); ?> - <?php skill1("value"); ?>%</label>
-                    <div class="progress" id="#skill-1">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
-                             style="width: <?php skill1("value"); ?>%" aria-valuenow="<?php skill1("value"); ?>"
-                             aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <label for="skill-2"><?php skill2("name"); ?> - <?php skill2("value"); ?>%</label>
-                    <div class="progress" id="#skill-2">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
-                             style="width: <?php skill2("value"); ?>%" aria-valuenow="<?php skill2("value"); ?>"
-                             aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <label for="skill-3"><?php skill3("name"); ?> - <?php skill3("value"); ?>%</label>
-                    <div class="progress" id="#skill-3">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
-                             style="width: <?php skill3("value"); ?>%" aria-valuenow="<?php skill3("value"); ?>"
-                             aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <label for="skill-4"><?php skill4("name"); ?> - <?php skill4("value"); ?>%</label>
-                    <div class="progress" id="#skill-4">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
-                             style="width: <?php skill4("value"); ?>%" aria-valuenow="<?php skill4("value"); ?>"
-                             aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    <?php
+                    if (skills_items_exist() == true) {
+                        ?>
+                        <?php
+                        $content = file_get_contents("content/content.json");
+                        $data = json_decode($content, true);
+                        $skills = $data['skills'];
+                        for ($i = 0; $i < count($skills['items']); $i++) {
+                            $items_name = $skills['items'][$i]['name'];
+                            $items_name = strtoupper($items_name);
+                            $items_value = $skills['items'][$i]['value'];
+                            ?>
+                            <label for="skill-1"><?php if ($items_name == null) {
+                                    $items_name = "no name";
+                                }
+                                print $items_name; ?> - <?php if ($items_value == null) {
+                                    $items_value = 0;
+                                }
+                                print $items_value; ?>%</label>
+                            <div class="progress" id="#skill-1">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                     style="width: <?php if ($items_value == null) {
+                                         $items_value = 0;
+                                     }
+                                     print $items_value; ?>%" aria-valuenow="<?php if ($items_value == null) {
+                                    $items_value = 0;
+                                }
+                                print $items_value; ?>"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                    } else {
+                        print "<h4 class='cursor-default'>no item</h4>";
+                    }
+                    }
+                    ?>
                 </div>
             </div>
+            <!--- skills --->
             <br>
             <!--- portfolio --->
             <?php
@@ -142,7 +165,7 @@ require_once "functions.php";
             <!--- portfolio --->
         </div>
         <div class="col-12 text-center cursor-default text-light my-4" id="footer">
-            <p>made with <span class="text-danger">❤</span> v3.5
+            <p>made with <span class="text-danger">❤</span> v3.6
                 - <?php print date("Y"); ?></p>
         </div>
     </div>
