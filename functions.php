@@ -115,15 +115,15 @@ function terminal_title()
     print $name;
 }
 
-function back_btn_url()
+function back_link()
 {
     $content = file_get_contents("content/content.json");
     $data = json_decode($content);
-    $back_btn_url = $data->back_btn_url;
-    if ($back_btn_url == null) {
+    $back_link = $data->btns->others->back->link;
+    if ($back_link == null) {
         print "#";
     }
-    print $back_btn_url;
+    print $back_link;
 }
 
 // skills

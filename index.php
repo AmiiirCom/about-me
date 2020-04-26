@@ -52,7 +52,7 @@ require_once "functions.php";
                 <div class="clearfix text-left terminal mt-2 px-2 py-1">
                     <p><small><?php bio(); ?></small></p>
                     <p><span class="text-success">—</span><small> for back to homepage click here</small>
-                        <a class="btn btn-sm btn-outline-light" href="<?php back_btn_url(); ?>"><small>back</small></a>
+                        <a class="btn btn-sm btn-outline-light" href="<?php back_link(); ?>"><small>back</small></a>
                     </p>
                     <p class="cursor-default text-warning"><small>➜ ~ </small></p>
                 </div>
@@ -165,7 +165,7 @@ require_once "functions.php";
             <!--- portfolio --->
         </div>
         <div class="col-12 text-center cursor-default text-light my-4" id="footer">
-            <p>made with <span class="text-danger">❤</span> v3.6
+            <p>made with <span class="text-danger">❤</span> v3.7
                 - <?php print date("Y"); ?></p>
         </div>
     </div>

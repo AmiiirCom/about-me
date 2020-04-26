@@ -9,8 +9,14 @@
   "twitter": null,
   "github": null,
   "telegram": null,
+  "btns": {
+    "others": {
+      "back": {
+        "link": null
+      }
+    }
+  },
   "bio": null,
-  "back_btn_url": null,
   "skills": {
     "display": true,
     "items": [
