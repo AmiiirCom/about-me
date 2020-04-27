@@ -15,7 +15,7 @@
 9. enter URL `github` string
 10. enter URL `telegram` string 
 11. enter `bio` string
-12. enter URL `back_btn_url` string 
+12. enter URL `btns>others>back>link` string 
 #### skills box
 1. enter `skills>display` bool
 2. enter `items>name` string
