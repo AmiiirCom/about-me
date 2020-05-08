@@ -71,7 +71,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 ##############################################
-.idea
+.idea/*
 content/bloginfo.json
 content/blog.json
 content/skills.json
