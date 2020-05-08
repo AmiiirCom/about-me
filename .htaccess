@@ -6,8 +6,12 @@ AddDefaultCharset UTF-8
 #</FilesMatch>
 
 
-# Prevent viewing of .htaccess file
-<Files .htaccess>
+<Files .gitignore>
+order allow,deny
+deny from all
+</Files>
+
+<Files .gitignore>
 order allow,deny
 deny from all
 </Files>
@@ -18,13 +22,18 @@ deny from all
 </Files>
 
 <Files *.php>
-    Order Deny,Allow
-    Deny from all
+order allow,deny
+deny from all
+</Files>
+
+<Files *.html>
+order allow,deny
+deny from all
 </Files>
 
 <Files index.php>
-    Order Allow,Deny
-    Allow from all
+order allow,deny
+allow from all
 </Files>
 
 # Prevent directory listings
