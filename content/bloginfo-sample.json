@@ -1,0 +1,16 @@
+{
+  "name": "My Blog",
+  "lang": "en",
+  "description": "This is my blog!",
+  "keywords": "Blog, MyBlog",
+  "author": "Blog author name",
+  "social": {
+    "instagram": null,
+    "facebook": "https://facebook.com/",
+    "twitter": null,
+    "github": "https://github.com/",
+    "linkedin": null,
+    "telegram": "https://telegram.org/"
+  },
+  "version": 0.1
+}
