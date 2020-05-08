@@ -71,9 +71,10 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 ##############################################
+.idea
 content/bloginfo.json
 content/blog.json
-content/skill.json
+content/skills.json
 templates/assets/.sass-cache/*
 .idea/watcherTasks.xml
 content/upload/profile.jpg
