@@ -10,7 +10,8 @@
     "twitter": null,
     "github": "https://github.com/",
     "linkedin": null,
-    "telegram": "https://telegram.org/"
+    "telegram": "https://telegram.org/",
+    "blog": null
   },
-  "version": 0.1
+  "profile_images": null
 }
