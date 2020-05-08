@@ -1,0 +1,43 @@
+/* fonts include */
+@import url(../css/fonts.css);
+body {
+  background: #263238;
+  color: #FAFAFA;
+  font-family: "Roboto-Regular"; }
+
+.cursor-default {
+  cursor: default; }
+
+.bloginfo-name {
+  text-decoration: none;
+  transition: all 0.2s;
+  font-family: 'Roboto-Black'; }
+  .bloginfo-name:hover {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 80%; }
+
+.bloginfo-description {
+  opacity: 30%;
+  font-family: 'Roboto-Thin'; }
+
+#skills {
+  background: #2e3d44; }
+  #skills h4 {
+    font-family: 'Roboto-Black'; }
+
+#bio {
+  background: #2e3d44; }
+  #bio h4 {
+    font-family: 'Roboto-Black'; }
+  #bio .bio-img {
+    max-width: 200px;
+    max-height: 200px; }
+  #bio .bio-text {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Roboto-Thin'; }
+
+#blogcarousel h5 {
+  font-family: 'Roboto-Black';
+  text-shadow: 2px 2px 0px #007bff; }

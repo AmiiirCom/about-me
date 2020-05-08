@@ -1,0 +1,63 @@
+/* fonts include */
+@import '../css/fonts.css';
+
+$bg-color: #263238;
+$text-color: #FAFAFA;
+$font: 'Roboto-Regular';
+
+body{
+  background: $bg-color;
+  color: $text-color;
+  font-family: $font;
+}
+
+.cursor-default{
+  cursor: default;
+}
+
+.bloginfo-name{
+  text-decoration: none;
+  transition: all 0.2s;
+  font-family: 'Roboto-Black';
+  &:hover{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 80%;
+  }
+}
+
+.bloginfo-description{
+  opacity: 30%;
+
+  font-family: 'Roboto-Thin';
+}
+
+#skills{
+  background: lighten($bg-color, 4);
+  h4{
+    font-family: 'Roboto-Black';
+  }
+}
+
+#bio{
+  background: lighten($bg-color, 4);
+  h4{
+    font-family: 'Roboto-Black';
+  }
+  .bio-img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .bio-text{
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Roboto-Thin';
+  }
+}
+
+#blogcarousel{
+  h5{
+    font-family: 'Roboto-Black';
+    text-shadow: 2px 2px 0px #007bff;
+  }
+}

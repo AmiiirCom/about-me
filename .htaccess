@@ -1,13 +1,47 @@
+<<<<<<< Updated upstream
 <Files *.php>
     Order Deny,Allow
     Deny from all
+=======
+AddDefaultCharset UTF-8
+
+# Caching schema
+#<FilesMatch "\.(jpg|png|css|js)$">
+#Header set Cache-Control "public, proxy-revalidate, max-age=420"
+#</FilesMatch>
+
+
+<Files .gitignore>
+order allow,deny
+deny from all
+</Files>
+
+<Files .gitignore>
+order allow,deny
+deny from all
+>>>>>>> Stashed changes
 </Files>
 <Files *.json>
+<<<<<<< Updated upstream
     Order Deny,Allow
     Deny from all
+=======
+order allow,deny
+deny from all
+</Files>
+
+<Files *.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files *.html>
+order allow,deny
+deny from all
+>>>>>>> Stashed changes
 </Files>
 <Files index.php>
-    Order Allow,Deny
-    Allow from all
+order allow,deny
+allow from all
 </Files>
 Options -Indexes

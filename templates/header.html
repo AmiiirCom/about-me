@@ -1,0 +1,47 @@
+<section id="header">
+    <div class="row">
+        <div class="col-12 text-center">
+            <a class="bloginfo-name text-light" href="#"><h1 class="h1 cursor-default">{{ bloginfo.name }}</h1></a>
+            <h4 class="h4 cursor-default bloginfo-description text-light">{{ bloginfo.description }}</h4>
+            <ul class="nav justify-content-center">
+                {% if bloginfo.social.instagram %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.instagram }}"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.facebook %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.facebook }}"><i
+                            class="fab fa-facebook-f"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.twitter %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.twitter }}"><i class="fab fa-twitter"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.github %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.github }}"><i class="fab fa-github"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.linkedin %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.telegram %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.telegram }}"><i class="fab fa-telegram"></i></a>
+                </li>
+                {% endif %}
+                {% if bloginfo.social.blog %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ bloginfo.social.blog }}"><i class="fas fa-blog"></i></a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</section>
