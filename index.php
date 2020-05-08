@@ -16,7 +16,7 @@ $content = file_get_contents(__DIR__ . "/content/blog.json");
 $blog = json_decode($content);
 
 $ststem = [
-    "template_url" => "templates/",
+    "template_url" => "templates",
     "programmer" => "Amir Esmaeili",
     "version" => 4
 ];
