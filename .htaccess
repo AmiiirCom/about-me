@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-<Files *.php>
-    Order Deny,Allow
-    Deny from all
-=======
 AddDefaultCharset UTF-8
 
 # Caching schema
@@ -19,13 +14,9 @@ deny from all
 <Files .gitignore>
 order allow,deny
 deny from all
->>>>>>> Stashed changes
 </Files>
+
 <Files *.json>
-<<<<<<< Updated upstream
-    Order Deny,Allow
-    Deny from all
-=======
 order allow,deny
 deny from all
 </Files>
@@ -38,10 +29,12 @@ deny from all
 <Files *.html>
 order allow,deny
 deny from all
->>>>>>> Stashed changes
 </Files>
+
 <Files index.php>
 order allow,deny
 allow from all
 </Files>
-Options -Indexes
+
+# Prevent directory listings
+Options All -Indexes
