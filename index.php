@@ -38,9 +38,6 @@ require_once "functions.php";
                             <?php twitter(); ?>
                             <?php github(); ?>
                             <?php telegram(); ?>
-                            <!--- Manual Btn --->
-                            <a href="https://iamiresmaeili7.ir/contact-me/" target="_blank" class="btn btn-warning">Contact
-                                Form</a>
                         </div>
                     </div>
                 </div>
@@ -165,7 +162,7 @@ require_once "functions.php";
             <!--- portfolio --->
         </div>
         <div class="col-12 text-center cursor-default text-light my-4" id="footer">
-            <p>made with <span class="text-danger">❤</span> v3.7
+            <p>made with <span class="text-danger">❤</span> v3.8
                 - <?php print date("Y"); ?></p>
         </div>
     </div>
