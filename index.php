@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonBlog\Main;
+namespace AboutMe;
 require_once __DIR__ . '/bootstrap.php';
 
 // bloginfo.json
