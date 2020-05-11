@@ -51,6 +51,7 @@
             {% endif %}
             <!-- end carousel -->
             <!-- start skills -->
+            {% if skills.item %}
             <div id="skills" class="px-3 py-2 rounded">
                 <h4 class="h4 border-bottom border-light text-light cursor-default">SKILLS</h4>
                 {% for item in skills.item %}
@@ -65,6 +66,7 @@
                 <br>
                 {% endfor %}
             </div>
+            {% endif %}
             <!-- end skills -->
         </div>
         <div class="col-sm-12 col-md-5 order-0">
