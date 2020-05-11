@@ -15,10 +15,12 @@ $skills = json_decode($content);
 $content = file_get_contents(__DIR__ . "/content/blog.json");
 $blog = json_decode($content);
 
+$date = date("Y");
+
 $ststem = [
     "template_url" => "templates",
-    "programmer" => "Amir Esmaeili",
-    "version" => 4
+    "version" => 4,
+    "date" => $date
 ];
 
 echo $twig->render('index.html', ['bloginfo' => $bloginfo,'skills' => $skills, 'system' => $ststem, 'blog' => $blog]);
