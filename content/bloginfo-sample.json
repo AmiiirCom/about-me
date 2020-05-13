@@ -4,6 +4,7 @@
   "description": "This is my blog!",
   "keywords": "Blog, MyBlog",
   "author": "Blog author name",
+  "url": null,
   "social": {
     "instagram": null,
     "facebook": "https://facebook.com/",

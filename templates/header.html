@@ -1,7 +1,7 @@
 <section id="header">
     <div class="row">
         <div class="col-12 text-center">
-            <a class="bloginfo-name text-light" href="#"><h1 class="h1 cursor-default">{{ bloginfo.name }}</h1></a>
+            <a class="bloginfo-name text-light" href="{{ bloginfo.url }}"><h1 class="h1 cursor-default">{{ bloginfo.name }}</h1></a>
             <h4 class="h4 cursor-default bloginfo-description text-light">{{ bloginfo.description }}</h4>
             <ul class="nav justify-content-center">
                 {% if bloginfo.social.instagram %}
