@@ -10,11 +10,12 @@ Go to the **/content** dir and rename in order **blog-sample.json**, **bloginfo-
 3. `description` is your page description, Which is of the string type
 4. `keywords` is your page keywords, Which is of the string type
 5. `author` is your page author, Which is of the string type
-6. `social` each item in this object is your page or social network URL, Which is of the string type
-7. `profile_images` is your profile image URL, Which is of the string type
-8. `profile_text` is your profile text (for example biography,...), Which is of the string type
-9. `browser_color` is color of the browser theme, Which is of the string type ([HEX color](https://www.color-hex.com/))
-10. `favicon_url` is favicon URL for browsers, Which is of the string type ([favicon generator](https://favicon.io/))
+6. `url` is your page URL, Which is of the string type
+7. `social` each item in this object is your page or social network URL, Which is of the string type
+8. `profile_images` is your profile image URL, Which is of the string type
+9. `profile_text` is your profile text (for example biography,...), Which is of the string type
+10. `browser_color` is color of the browser theme, Which is of the string type ([HEX color](https://www.color-hex.com/))
+12. `favicon_url` is favicon URL for browsers, Which is of the string type ([favicon generator](https://favicon.io/))
 
 ### blog.json
 1. `title` is your post title, Which is of the string type
