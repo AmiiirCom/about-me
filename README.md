@@ -29,4 +29,4 @@ Go to the **/content** dir and rename in order **blog-sample.json**, **bloginfo-
 > Note that if the item object is empty, the skills box will not be displayed.
 
 ### Template guide
-[Template guide](https://github.com/AmiiirCom/about-me/blob/master/TEMPLATE-GUIDE.md)
+To create and design a new template, Read [Template guide](https://github.com/AmiiirCom/about-me/blob/master/TEMPLATE-GUIDE.md)
