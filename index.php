@@ -19,8 +19,9 @@ $date = date("Y");
 
 $ststem = [
     "template_url" => "templates",
+    "template" => "default-dark",
     "version" => 4,
     "date" => $date
 ];
 
-echo $twig->render('index.html', ['bloginfo' => $bloginfo,'skills' => $skills, 'system' => $ststem, 'blog' => $blog]);
+echo $twig->render($ststem['template'].'/index.html', ['bloginfo' => $bloginfo,'skills' => $skills, 'system' => $ststem, 'blog' => $blog]);
