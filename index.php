@@ -20,7 +20,7 @@ $date = date("Y");
 $ststem = [
     "template_url" => "templates",
     "template" => "default-dark",
-    "version" => 4.1,
+    "version" => "4.0.1",
     "date" => $date
 ];
 
