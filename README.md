@@ -1,4 +1,5 @@
-# about-me
+# about-me [The project ended forever.]
+# repository closed
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a7ad2300db84e00b96f8e104d62a7e2)](https://app.codacy.com/manual/AmiiirCom/about-me?utm_source=github.com&utm_medium=referral&utm_content=AmiiirCom/about-me&utm_campaign=Badge_Grade_Dashboard)
 
